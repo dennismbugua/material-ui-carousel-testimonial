@@ -1,0 +1,100 @@
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Testimonal Styling */
+
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  background: antiquewhite;
+  width: 60%;
+  padding: 60px;
+  margin: 20px auto;
+  border-radius: 50px;
+  min-width: 80%;
+}
+.main {
+  padding: 20px 60px;
+}
+
+/* Cards */
+
+.Client-Card {
+  color: gray !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+.avatar {
+  width: 120px !important;
+  height: 120px !important;
+  border: 3px solid #994d47;
+  padding: 3px;
+}
+.Name {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #994d47;
+}
+.heading {
+  text-align: center;
+  font-family: "Roboto";
+  color: #994d47;
+  font-size: 40px;
+}
+.designation {
+  color: #994d47;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Slick Slider  */
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-slider {
+  padding: 25px !important;
+  border-radius: 50px !important;
+  box-shadow: 1px 3px 21px 9px rosybrown !important;
+  min-width: auto;
+}
+
+/* Customization of Slider Navigations*/
+
+.ft-slick__dots--custom {
+  height: 8px;
+  width: 14px;
+  background-color: #ad6f69;
+  border-radius: 4px;
+  position: relative;
+}
+
+.slick-dots li {
+  width: 20px;
+  height: 0px;
+  margin: 10px -10px;
+  transition: width 0.3s ease-in-out;
+}
+
+.slick-dots .slick-active .ft-slick__dots--custom {
+  width: 20px;
+  top: 0px;
+  overflow: hidden;
+  background: #994d47;
+  margin-top: 26px;
+}
